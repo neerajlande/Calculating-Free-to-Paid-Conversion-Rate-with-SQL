@@ -65,7 +65,10 @@ FROM
     HAVING first_date_purchased IS NULL
         OR first_date_watched <= first_date_purchased) a;
 ```
-## Answers :
+## Key Insights
 - Conversion Rate : 11
 - Average duration between the registration date and when a student has watched a lecture for the first time : 3.42
 - Average duration between the date of first time engagement and when a student purchases a subscription for the first time : 26.25
+
+## Conclusion
+The Free-to-Paid-Conversion-Rate project demonstrates the real time conversion rate of students who engaged in the session and after completely watching the session purchased the subscription. It also analyzed the average registered students watch duration and student purchased subscription. 
